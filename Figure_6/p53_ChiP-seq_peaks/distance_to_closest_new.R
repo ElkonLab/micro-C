@@ -7,6 +7,7 @@
 # and comparative visualizations.
 #
 # Steps:
+# 1. Load ChIP-seq peak files and TSS annotations.
 # 2. For each cell line:
 #    - Identify the closest TSS for each peak using bedtools.
 #    - Compile distances across all selected cell lines.
