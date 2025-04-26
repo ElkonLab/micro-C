@@ -1,14 +1,21 @@
 This repository contains R scripts used to generate the main figures for the manuscript:
 
-> **"Transcriptional programs of cell identity and p53-induced stress responses are associated with distinctive features of spatial genome organization"**  
-> Gony Shanel, Tsung-Han S. Hsieh, Claudia Cattoglio, Hadar Amira Haham, Hsin-Jung Chou, Jack Z. Li, Ron Shamir, Xavier Darzacq, and Ran Elkon.
+### **Transcriptional programs of cell identity and p53-induced stress responses are associated with distinctive features of spatial genome organization**  
+Gony Shanel, Tsung-Han S. Hsieh, Claudia Cattoglio, Hadar Amira Haham, Hsin-Jung Chou, Jack Z. Li, Ron Shamir, Xavier Darzacq, and Ran Elkon.
 
 
 ---
 
 ## Overview
 
-This repository provides scripts and example data for reproducing key analyses shown in Figures 2–6 of the manuscript.
+This repository provides original R scripts developed for specific analyses in Figures 2–6 of the manuscript.  
+The scripts are organized by figure and cover tasks such as A/B compartment assignment, TAD boundary analysis, chromatin loop quantification, enhancer-promoter loop identification, and integration of gene expression and chromatin architecture in response to p53 activation.
+
+Each script operates on example input files provided in the `data/` folder and can be run independently.  
+Supporting functions are collected in `_functions.r` and `_functions_hic.r`.
+
+> **Note:** This repository contains only the custom R scripts created for the study.  
+> Operation preformed with external command-line tools (deeptools, FAN-C, ect.) are not included here.
 
 Scripts are organized into folders by figure number:
 - `Figure_2/`: A/B compartment analysis
