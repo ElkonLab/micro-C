@@ -4,8 +4,6 @@ This repository contains R scripts used to generate the main figures for the man
 > Gony Shanel, Tsung-Han S. Hsieh, Claudia Cattoglio, Hadar Amira Haham, Hsin-Jung Chou, Jack Z. Li, Ron Shamir, Xavier Darzacq, and Ran Elkon.
 
 
-> ⚠️ These scripts are designed for reproducibility and demonstration purposes using small example files, not for full-scale reprocessing of raw datasets.
-
 ---
 
 ## Overview
@@ -47,6 +45,8 @@ Small example data files needed to run the scripts are provided in the `data/` f
 2. Scripts can be run independently within each `Figure_X/` folder.
 3. Paths to data files must be manually set at the beginning of each script if needed.
 4. Supporting functions are sourced automatically from `_functions.r` and `_functions_hic.r`.
+
+> ⚠️ These scripts are designed for reproducibility and demonstration purposes using small example files, not for full-scale reprocessing of raw datasets.
 
 ---
 
