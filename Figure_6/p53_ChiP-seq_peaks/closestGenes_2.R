@@ -37,9 +37,12 @@
 ## This script is designed with relative paths for the specific data structure
 ## with which it was uploaded to https://github.com/ElkonLab/micro-C.
 
+## This script reqires the generation of a "peaks_distance_to_closest_gene.tsv"
+## file using the "./distance_to_closest_new.R" script first.
+
 # Arguments ----
 
-path.distanceToClosest <- "../../data/p53_ChIP-seq_peaks_distance_to_closest_gene.tsv"
+path.distanceToClosest <- "peaks_distance_to_closest_gene.tsv"
 path.cells <- "../../data/p53_cell_lines.txt"
 path.deseq_sig_diff_genes <- "../../data/deseq2/all_significant_differentail_genes.tsv"
 
