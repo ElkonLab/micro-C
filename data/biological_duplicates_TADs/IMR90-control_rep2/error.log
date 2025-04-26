@@ -1,0 +1,5 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+WARN [2025-03-29T09:20:47,710]  [Globals.java:138] [main]  Development mode is enabled
+Reading file: /specific/elkon/gonyshanel/data/hsieh-2020/hic_duplicates/IMR90-control_rep2.hic
+Using 50 CPU thread(s)
+Warning: Hi-C map is too sparse to find many domains via Arrowhead.
