@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15600163.svg)](https://doi.org/10.5281/zenodo.15600163)
+
 This repository contains R scripts used to generate the main figures for the manuscript:
 
 ### **Transcriptional programs of cell identity and p53-induced stress responses are associated with distinctive features of spatial genome organization**  
